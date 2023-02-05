@@ -11,8 +11,8 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'fb9a294d-05ae-4dc4-9b6a-b1dac41cae54'
-  imageRepository: 'savastylazuredevopscicdgametetris'
-  containerRegistry: 'svacr5.azurecr.io'
+  imageRepository: 'nurgul'
+  containerRegistry: 'feb4sat.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
